@@ -1,5 +1,5 @@
 #Tp Mercado Liebre, Digital House C21
-          
+          <figure><img src="./mock/mercadoLiebre.png" alt="logo"></figure>
             ## Instrucciones
 
 Para ejecutar el proyecto, sigue estos pasos:
