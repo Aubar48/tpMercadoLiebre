@@ -2,7 +2,7 @@
 
 
 #Tp Mercado Liebre, Digital House C21
-          <figure><img src="./mock/mercadoLiebre.png" alt="logo"></figure>
+          <figure><img src="./mock/mercadoLiebre.png" alt="logo" style="height: 400px;"></figure>
 
             ## Instrucciones
 
