@@ -31,8 +31,8 @@ body.home .home_header--menu ul {
   padding: 0;
 }
 
-body.home .home_header_menu--login li {
-  display: inline-block;
+body.home .home_header_menu--login li a {
+  padding-right: 5px;
 }
 
 body.home .home_header_burger--menu {
