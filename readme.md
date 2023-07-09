@@ -1,4 +1,4 @@
-## [Mercado Liebre 1 - Estructura Html](https://github.com/Aubar48/tpMercadoLiebre/tree/estructura-html) <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"> 
+## [Mercado Liebre 2 - Estructura CSS] <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"> 
 
 
 #Tp Mercado Liebre, Digital House C21 
