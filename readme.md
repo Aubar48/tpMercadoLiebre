@@ -1,6 +1,8 @@
 ## [Mercado Liebre 1 - Estructura HTML]
 <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"> 
-          <figure><img src="./mock/mercadoLiebre.png" alt="logo"></figure>
+#Tp Mercado Liebre, Digital House C21 
+          <figure><img src="./mock/mercadoLiebre.png" alt="logo" style="height: 400px;"></figure>
+
             ## Instrucciones
 
 Para ejecutar el proyecto, sigue estos pasos:
