@@ -4,9 +4,10 @@
 ## [Mercado Liebre 2 - Estructura css](https://github.com/Aubar48/tpMercadoLiebre/tree/estructura-css) <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"> 
 
 ## [Mercado Liebre 3 - Estructura css responsive](https://github.com/Aubar48/tpMercadoLiebre/tree/estructura-responsive) <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"> 
-=======
-## [Mercado Liebre - Estructura css - responsive - flex] <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"> 
->>>>>>> estructura-responsive-flex
+
+## [Mercado Liebre 4  - Estructura css - responsive flex](https://github.com/Aubar48/tpMercadoLiebre/tree/estructura-responsive-flex) <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"><img align="center" alt="JS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">  
+
+
 
 #Tp Mercado Liebre, Digital House C21 
           <figure><img src="./mock/mercadoLiebre.png" alt="logo" style="height: 400px;"></figure>
