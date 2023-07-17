@@ -1,4 +1,4 @@
-## [Mercado Liebre - Estructura css - responsive] <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"> 
+## [Mercado Liebre - Estructura css - responsive - flex] <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"> 
 
 #Tp Mercado Liebre, Digital House C21 
           <figure><img src="./mock/mercadoLiebre.png" alt="logo" style="height: 400px;"></figure>
