@@ -71,6 +71,14 @@
 /* media q tablets */
 
 @media (min-width: 481px) {
+  /* header */
+  .home_header_encabezado--btn i {
+    position: absolute;
+    top: 30px;
+    right: 25px;
+    font-size: 16px;
+    border-left: 1px solid var(--colorGrisOscuro);
+  }
   /* main */
   .home_main_visita,
   .home_main_ofertas {
@@ -94,6 +102,7 @@
     background-color: #ffffff;
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
   }
+  /* footer */
   .home_footer_seguridad {
     display: flex;
     flex-direction: column;
@@ -106,6 +115,15 @@
 }
 /* desktop */
 @media (min-width: 769px) {
+  /* header */
+  .home_header_encabezado--btn i {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    font-size: 16px;
+    border-left: 1px solid var(--colorGrisOscuro);
+  }
+  /* main */
   .home--main h3 {
     margin-left: 2%;
   }
@@ -116,6 +134,7 @@
   .home_main_ofertas--descuento {
     text-align: right;
   }
+  /* footer */
   .home_footer_seguridad {
     display: flex;
     flex-direction: column;

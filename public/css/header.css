@@ -18,8 +18,9 @@
 .home_header_encabezado--btn i {
   position: absolute;
   top: 30px;
-  right: 35px;
+  right: 19px;
   font-size: 16px;
+  border-left: 1px solid var(--colorGrisOscuro);
 }
 
 .home_header_encabezado--logo {

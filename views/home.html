@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mercado liebre</title>
+    <title>Home</title>
     <script src="https://kit.fontawesome.com/53932b54f0.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <link rel="shortcut icon" href="/images/logo-mercado-liebre.svg" type="image/x-icon">
     <link rel="stylesheet" href="/css/style.css">
 </head>
 
@@ -15,7 +17,7 @@
         <div class="home__header--box">
             <div class="home_header_encabezado">
                 <div class="home_header_encabezado--logo">
-                    <img src="/images/logo-mercado-liebre.svg" alt="logo">
+                    <img id="modo" src="/images/logo-mercado-liebre.svg" alt="logo">
                 </div>
                 <div class="home_header_encabezado--barra">
                     <form class="home_header_encabezado--form" action="#" method="post" target="_blank">
@@ -33,6 +35,7 @@
         </div>
         <nav class="home_header--menu">
             <ul class="home_header_menu--opciones">
+                <li><a href="/">Home</a></li>
                 <li><a href="#">Ofertas</a></li>
                 <li><a href="#">Tiendas Oficiales</a></li>
                 <li><a href="#">Vender</a></li>
@@ -56,7 +59,6 @@
 
         <h3>Basado en tu última visita</h3>
         <div class="home_main_visita">
-
             <article class="home__main__article">
                 <img src="/images/img-cafetera-moulinex.jpg" alt="">
                 <div class="home__main__section--article">
@@ -162,6 +164,8 @@
 
         <p class="home_footer_p">Copyright © 1999-2023 MercadoLiebre S.R.L.</p>
     </footer>
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+    <script src="/js/main.js"></script>
 </body>
 
 </html>
