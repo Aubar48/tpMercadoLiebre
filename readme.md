@@ -10,7 +10,7 @@
 ## Proyecto en vivo
 
 Puedes acceder al proyecto en vivo en: 
-https://mercadoliebre-vrj6.onrender.com/
+https://mercadoliebre-dc8k.onrender.com
 
 #Tp Mercado Liebre, Digital House C21 
           <figure><img src="./mock/mercadoLiebre.png" alt="logo" style="height: 400px;"></figure>
