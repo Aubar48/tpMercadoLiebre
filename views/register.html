@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <script src="https://kit.fontawesome.com/53932b54f0.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <link rel="shortcut icon" href="/images/logo-mercado-liebre.svg" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body class="home">
+    <header class="home_header">
+        <div class="home__header--box">
+            <div class="home_header_encabezado">
+                <div class="home_header_encabezado--logo">
+                    <img id="modo" src="/images/logo-mercado-liebre.svg" alt="logo">
+                </div>
+                <div class="home_header_encabezado--barra">
+                    <form class="home_header_encabezado--form" action="#" method="post" target="_blank">
+                        <input class="home_header_encabezado--form--input" type="search"
+                            placeholder="Buscar productos, marcas">
+                        <div class="home_header_encabezado--btn">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+            <p class="home_header_encabezado--compra--p"><i class="fa-sharp fa-solid fa-hand-holding-dollar"></i> Comprá
+                en cuotas y sin tarjeta de crédito</p>
+        </div>
+        <nav class="home_header--menu">
+            <ul class="home_header_menu--opciones">
+                <li><a href="/">Home</a></li>
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Tiendas Oficiales</a></li>
+                <li><a href="#">Vender</a></li>
+                <li><a href="#">Ayuda</a></li>
+            </ul>
+            <ul class="home_header_menu--login">
+                <li><a href="/register">Creá tu cuenta</a><i class="fa-regular fa-address-card"></i><br></li>
+                <li><a href="/login">Ingresá</a><i class="fa-solid fa-right-to-bracket"></i><br></li>
+                <li><a href="#">Mis compras</a> <i class="fa-solid fa-basket-shopping"></i></li>
+            </ul>
+        </nav>
+        <div class="home_header_burger--menu">
+            <a href="/"><i class="fas fa-bars"></i></a>
+        </div>
+    </header>
+
+    <main class="register__main">
+
+        <form class="register__main--form" action="/my-handling-form-page" method="post">
+            <ul>
+                <li class="register__main--fotoPerfil">
+                    <label for="file">Foto de perfil:</label><br>
+                    <input type="file" name="file" id="file" accept="image/*" multiple />
+                </li>
+
+                <li class="register__main--nombreApellido">
+                    <label for="nombre__apellido">Nombre y Apellido:</label>
+                    <input type="text" id="nombre__apellido" name="nombre__apellido" placeholder="Nombre y Apellido" />
+                </li>
+
+                <li class="register__main--userName">
+                    <label for="user__name">Nombre de usuario:</label>
+                    <input type="text" id="user__name" name="user__name" placeholder="Nombre de usuario" />
+                </li>
+
+                <li class="register__main--fechaNacimiento">
+                    <label for="user__date">Fecha de nacimiento:</label>
+                    <input type="date" id="user__date" name="user__date" />
+                </li>
+
+                <li class="register__main--selectionPais">
+                    <label for="simple">Seleccione su país:</label>
+                    <select id="simple" name="simple">
+                        <option selected>Argentina</option>
+                        <option>Chile</option>
+                        <option>Brazil</option>
+                        <option>Uruguay</option>
+                        <option>Paraguay</option>
+                        <option>Bolivia</option>
+                        <option>Venezuela</option>
+                        <option>Peru</option>
+                    </select>
+                </li>
+
+                <li class="register__main--userDomicilio">
+                    <label for="user__domicilio">Domicilio:</label>
+                    <input type="text" id="user__domicilio" name="user__domicilio" placeholder="Domicilio" />
+                </li>
+
+                <li class="register__main--email">
+                    <label for="user__email">Email:</label>
+                    <input type="email" id="user__email" name="user__email" placeholder="Email" />
+                </li>
+
+                <li class="register__main--contraseña">
+                    <label for="user__contraseña">Contraseña:</label>
+                    <input type="password" id="user__contraseña" name="user__contraseña" placeholder="Contraseña" />
+                </li>
+
+                <li class="register__main--confirmarContraseña">
+                    <label for="confirmar__contraseña">Confirmar contraseña:</label>
+                    <input type="password" id="confirmar__contraseña" name="confirmar__contraseña"
+                        placeholder="Confirmar contraseña" />
+                </li>
+
+                <li class="register__main--perfilUser">
+                    <label>Perfil del usuario:</label><br>
+                    <label for="comprar">Comprar</label>
+                    <input type="radio" id="comprar" name="perfil" value="comprar" />
+                    <label for="vender">Vender</label>
+                    <input type="radio" id="vender" name="perfil" value="vender" />
+                </li>
+
+                <li class="register__main--categoriasInteres">
+                    <label>Categoría de interés del usuario:</label><br>
+                    <label for="electro">Electro</label>
+                    <input type="checkbox" id="electro" name="categorias" value="electro" />
+                    <label for="moda">Moda</label>
+                    <input type="checkbox" id="moda" name="categorias" value="moda" />
+                    <label for="hogar">Hogar</label>
+                    <input type="checkbox" id="hogar" name="categorias" value="hogar" />
+                    <label for="jugueteria">Juguetería</label>
+                    <input type="checkbox" id="jugueteria" name="categorias" value="jugueteria" />
+                    <label for="vida__sana">Vida sana</label>
+                    <input type="checkbox" id="vida__sana" name="categorias" value="vida__sana" />
+                </li>
+
+                <li class="register__main--userMessage">
+                    <textarea class="register__main__userMessage--textArea" id="user__message" name="user__message"
+                        placeholder="Mensaje descriptivo del usuario" rows="6" cols="43"></textarea>
+                </li>
+
+                <li class="register__main--botonBox">
+                    <button class="register__main--boton" type="submit">Enviar formulario</button>
+                    <button class="register__main--boton" type="reset">Resetear formulario</button>
+                </li>
+
+            </ul>
+        </form>
+    </main>
+
+
+    <footer class="home_footer">
+
+        <article class="home_footer_paga">
+            <i class="fa-solid fa-credit-card"></i>
+            <h4 class="home_footer_paga_titulo">Pagá con tarjeta o en efectivo</h4>
+            <p class="home_footer_paga_p">Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
+                puntos de pago. ¡Y siempre es seguro!</p>
+        </article>
+
+
+        <article class="home_footer_envio">
+            <i class="fa-sharp fa-solid fa-gift"></i>
+            <h4 class="home_footer_envio--titulo">Envío gratis desde $ 2.500</h4>
+            <p class="home_footer_envio--p">Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
+                productos. Es un beneficio de Mercado Puntos.</p>
+        </article>
+
+
+        <article class="home_footer_seguridad">
+            <i class="fa-solid fa-user-shield"></i>
+            <h4 class="home_footer_seguridad--titulo">Seguridad, de principio a fin</h4>
+            <p class="home_footer_seguridad--p">¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas
+                hacer,
+                porque estás siempre protegid@.</p>
+        </article>
+
+        <p class="home_footer_p">Copyright © 1999-2023 MercadoLiebre S.R.L.</p>
+    </footer>
+
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+
+</html>

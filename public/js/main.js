@@ -11,6 +11,26 @@ if (document.title === "Home") {
     }, 1000)
 }
 
+if (document.title === "Login") {
+    setInterval(() => {
+        document.title =
+            alertShow ? "Login"
+                : "Mercado liebre"
+
+        alertShow = !alertShow
+    }, 1000)
+}
+
+if (document.title === "Register") {
+    setInterval(() => {
+        document.title =
+            alertShow ? "Register"
+                : "Mercado liebre"
+
+        alertShow = !alertShow
+    }, 1000)
+}
+
 if (document.title === "404 Not Found") {
     setInterval(() => {
         document.title =
