@@ -1,6 +1,4 @@
-input {
-  max-width: 150px;
-}
+
 .login__main--contraseña{
   display: flex;
   flex-direction: row;
