@@ -1,3 +1,12 @@
+input {
+  max-width: 150px;
+}
+.login__main--contraseña{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 .login__main {
   display: flex;
   flex-direction: column;
