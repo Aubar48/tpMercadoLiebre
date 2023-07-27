@@ -18,7 +18,9 @@
   box-shadow: 2px 2px 2px 2px black;
   border: 5px solid var(--colorAmarillo);
 }
-
+.register__main--boton:hover {
+  background-color: var(--colorAzulClaro);
+}
 .register__main--titulo {
   display: flex;
   justify-content: center;
