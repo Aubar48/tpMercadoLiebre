@@ -14,6 +14,7 @@
   border-bottom: 2px solid var(--colorAmarillo);
   box-shadow: 2px 2px 2px 2px black;
 }
+
 .login__main--form {
   display: flex;
   justify-content: flex-start;
@@ -21,6 +22,9 @@
   padding: 10px;
   box-shadow: 2px 2px 2px 2px black;
   border: 5px solid var(--colorAmarillo);
+}
+.login__main--boton:hover {
+  background-color: var(--colorAzulClaro);
 }
 .login__main--titulo {
   display: flex;
