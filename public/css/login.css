@@ -19,8 +19,10 @@
   justify-content: flex-start;
   background-color: var(--colorAmarillo);
   padding: 10px;
+  box-shadow: 2px 2px 2px 2px black;
+  border: 5px solid var(--colorAmarillo);
 }
-.login__main--titulo{
+.login__main--titulo {
   display: flex;
   justify-content: center;
 }
